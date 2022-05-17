@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+.container {
+	max-width: 1850px;
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.header-content {
+	background-color: blue;
+	justify-content: space-between;
+	align-items: center;
+	
+	padding: 20px;
+}
+.logo {
+	width: 300px;
+	}
+    .navbar-ul {
+        flex-wrap: wrap;
+    }
+    .navbar-li {
+        margin-left: 20px;
+    }
+    .navbar-li a {
+        color: white;
+        font: 20px;
+    }
+    ul,
+    ol {
+        list-style: none;
+    }
